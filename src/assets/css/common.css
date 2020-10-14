@@ -1,0 +1,30 @@
+/* 表单公共样式改变 */
+
+.el-pagination {
+    text-align: center;
+}
+
+.el-form-item label:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.el-form-item__label {
+    text-indent: 13px;
+    text-align: justify;
+    text-align-last: justify;
+    height: 30px;
+}
+
+.el-form-item {
+    margin-bottom: 14px;
+}
+
+.el-input__inner {
+    height: 30px;
+}
+
+.mtop {
+    margin-top: .2rem;
+}

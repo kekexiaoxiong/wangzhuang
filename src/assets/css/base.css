@@ -1,0 +1,480 @@
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: #63666d;
+    background-color: #fff;
+    border-right-color: #fff;
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+    background-color: #F5F7FA;
+    border-bottom: none;
+    margin: 0;
+}
+
+.chart-background {
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.percent {
+    width: 100%;
+}
+
+colgroup {
+    display: none;
+}
+
+.el-tag {
+    border-radius: 0.05333rem 0.05333rem 0 0;
+}
+
+
+/* 改变element里面的元素超出不隐藏 */
+
+.el-tabs__content {
+    overflow: visible;
+}
+
+
+/* 每个模块的问号提示框*/
+
+.downLoad-icon {
+    position: absolute;
+    top: -14px;
+    right: 11px;
+    width: 26px;
+}
+
+.el-card__body {
+    padding: 0px;
+    width: 100%;
+}
+
+.el-card {
+    position: relative;
+    padding: 0px;
+    width: 100%;
+}
+
+.smallIcon {
+    margin-top: 20px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    text-align: center;
+    border: 1px solid #9fa3a8;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 2px 2px;
+    cursor: pointer;
+}
+
+.smallIcon:first-child {
+    margin-right: 20px;
+}
+
+.el-tag--dark.el-tag--info {
+    background: url(./../img/title_bg.jpg);
+    height: 37px;
+    line-height: 37px;
+}
+
+
+/* 菜单切换栏的主题色 */
+
+.el-tabs__nav-scroll {
+    border-bottom: none;
+    background: url(./../img/title_center.jpg);
+}
+
+
+/* 图表和表格切换按钮颜色 */
+
+.checked {
+    background-color: #e3e5e6;
+}
+
+
+/* 控制info信息显示位置 */
+
+.info {
+    position: absolute;
+    left: 430px;
+    z-index: 10;
+    top: -37px;
+}
+
+.info font em {
+    font-size: 14px;
+    font-style: normal;
+    color: #de6725;
+    padding: 0 4px;
+}
+
+.el-card__body span {
+    color: #63666d;
+}
+
+
+/* 右边图标部分的padding值 */
+
+.game_general_situation {
+    padding: 15px 15px 15px 15px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/* 改变elemetn的原始样式 去掉 boder */
+
+.el-tabs--border-card {
+    border: none;
+}
+
+
+/* 左边的每行分为两块内容 */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left {
+    width: 48%;
+}
+
+.container-right {
+    width: 48%;
+}
+
+
+/* 性别对比图 */
+
+.picbox_chart_table {
+    width: 100%;
+}
+
+.minpicbox {
+    height: 390px;
+    padding: 15px;
+    height: 290px;
+    position: relative;
+    z-index: 8;
+    width: 100%;
+}
+
+.minpicbox .r {
+    float: right !important;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+
+.famale {
+    width: 275px;
+    padding-top: 30px;
+}
+
+.famale img {
+    margin: 0 3px;
+}
+
+.famale .male {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    color: #666;
+}
+
+
+/* 鼠标移入显示每个图标的标题说明 */
+
+em.icon-exp {
+    display: block;
+    text-indent: -9999px;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #373c47;
+    opacity: .9;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.noun-exp {
+    position: absolute;
+    cursor: auto;
+    z-index: 1000;
+    background: rgba(55, 60, 71, .9);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+    top: 35px;
+    text-shadow: none;
+    line-height: 24px;
+}
+
+.box-card {
+    position: relative;
+}
+
+
+/* chart图表标题栏  下拉框样式 */
+
+.selectPosition {
+    width: 4.5rem;
+    position: absolute;
+    right: calc( 100% - 95%);
+    top: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.dropselistbox li {
+    color: #ffffff;
+    font-size: .12rem;
+    line-height: .12rem;
+    text-align: left;
+    padding-left: .15rem;
+    box-sizing: border-box;
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.dropselistbox li:hover {
+    background-color: #224e67;
+}
+
+.buttonDiv {
+    margin: 0 .05rem 0 .15rem;
+    color: #2e323b;
+}
+
+.buttonDiv .selectlble {
+    font-size: .12rem;
+    color: #616d73;
+    margin: .08rem .05rem 0 .1rem;
+    height: .24rem;
+    line-height: .24rem;
+}
+
+.selectlist {
+    position: relative;
+}
+
+.dropselect {
+    height: .24rem;
+    margin-top: .08rem;
+    border: 1px solid #9fa3a8;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.boxTest {
+    width: 1rem;
+    height: 2rem;
+    background-color: pink;
+}
+
+.selectlist ul {
+    background: rgba(22, 81, 116, 0.9);
+    position: absolute;
+    z-index: 9999;
+    left: -1px;
+    border-radius: 4px;
+    top: 22px;
+    max-height: 2.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    text-shadow: 0 0 0;
+    padding: .10rem 0;
+}
+
+input,
+select,
+button {
+    /* font-size: 12px; */
+    font-family: Arial, "Microsoft Yahei", Verdana, Tahoma;
+    vertical-align: middle;
+    outline: medium none;
+}
+
+.buttonDiv .dropselect h4,
+.Contrasttime span {
+    height: .24rem;
+    line-height: .24rem;
+    background: url(./../img/selectAroww.png) no-repeat right top;
+    color: #616d73;
+    margin: 0;
+    padding-right: .3rem;
+    font-size: .10rem;
+}
+
+input,
+select,
+button,
+div {
+    outline: none;
+    word-break: break-all;
+}
+
+.dropselect h4 {
+    padding: 0 .3rem 0 .1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* table表 */
+
+
+/* 切换 */
+
+.pic_but {
+    display: block;
+    text-decoration: none;
+    height: 22px;
+    line-height: 22px;
+    /* background: url(../images/button_bg.png); */
+    /* padding: 0 10px;
+    margin-top: 8px; */
+    color: #616d73;
+    border: 1px solid #9fa3a8;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+a.pic_but.l {
+    margin: 8px 10px 0 0;
+}
+
+a.pic_but {
+    height: 26px;
+    width: 27px;
+    padding: 0 5px;
+    float: left;
+}
+
+a:hover.pic_but,
+a.hover.pic_but {
+    background: #727A85;
+    border-color: #596066;
+    box-shadow: 0 1px 3px #616A71 inset;
+    padding: 0 5px;
+}
+
+a:hover.pic_but font.pic_icon,
+a.hover.pic_but font.pic_icon {
+    background: url(../img/icon_pic_hover.png) no-repeat left center;
+}
+
+a.pic_but font.pic_icon {
+    background: url(../img/icon_pic.png) no-repeat left center;
+    width: 15px;
+}
+
+a.pic_but font {
+    height: 24px;
+    display: block;
+    text-indent: -9999em;
+}
+
+a:hover.pic_but font.table_icon,
+a.hover.pic_but font.table_icon {
+    background: url(../img/icon_table_hover.png) no-repeat left center;
+}
+
+a.pic_but font.table_icon {
+    background: url(../img/icon_table.png) no-repeat left center;
+    width: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.ivu-card-body {
+    overflow: hidden;
+}
+
+
+/* 每个表格的title颜色 */
+
+.ivu-card-head {
+    background: url(../img/title_bg.jpg);
+    background-repeat: repeat;
+    padding: 11px 16px;
+}
+
+
+/* 每个表格的距离下边距 */
+
+.mbtm {
+    margin-bottom: 32px;
+}
+
+.ivu-card-shadow {
+    background-color: #ebf0f3;
+}
+
+.ivu-tabs-tabpane {
+    background: #fff;
+    padding: 15px;
+}
+
+.picbox {
+    background: #fff;
+    /* border: 1px solid #c0c5cb; */
+    padding: 15px;
+    height: 290px;
+    position: relative;
+    z-index: 8;
+}
+
+.ivu-tabs-bar {
+    margin-bottom: 0px;
+}
+
+
+/* 图表切换按钮 */
+
+.demo-tabs-style2>.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab {
+    border-radius: 0;
+    background: #fff;
+}
+
+.demo-tabs-style2>.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab-active {
+    border-top: 1px solid #3399ff;
+}
+
+.demo-tabs-style2>.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab-active:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #3399ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
